@@ -1,0 +1,18 @@
+._global-box {
+  padding: .5rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  line-height: 1.3rem;
+
+  & > p {
+    display: block;
+  }
+
+  &-item {
+    font-size: 15px;
+  }
+
+}

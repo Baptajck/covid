@@ -1,0 +1,77 @@
+.global {
+
+  &-title {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: 2rem 0 1rem;
+    color: rgb(230, 78, 184);
+  }
+
+  &-desc {
+    text-align: center;
+    font-style: italic;
+    margin: 0 0 2rem;
+  }
+
+  &-container {
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 90%;
+    padding: 1rem;
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 18px;
+    // align-items: center;
+    
+    & > &-date {
+      font-style: italic;
+      text-align: right;
+      margin-bottom: 20px;
+    }
+
+    &-box-item {
+      display: flex;
+
+      &--plus {
+        font-size: 13px;
+        font-style: italic;
+      }
+    }
+
+    &-box-casConfirm {
+      border: 1px solid orange;
+      color: orange;
+    }
+
+    &-box-dead {
+      border: 1px solid #e74c3c;
+      color: #e74c3c;
+
+      // EHPAD & EMS
+      &--others {
+        border: 1px solid gray;
+        color: gray;
+      }
+    }
+
+    &-box-hospital {
+      border: 1px solid violet;
+      color: violet;
+    }
+
+    &-box-reanimation {
+      border: 1px solid blue;
+      color: blue;
+    }
+
+    &-box-gueris {
+      border: 1px solid #2ecc71;
+      color: #2ecc71;
+    }
+
+  }
+}
