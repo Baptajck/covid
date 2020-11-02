@@ -5,7 +5,7 @@
   */
 export const formatDate = (reviewDate) => {
   const options = {
-    day: 'numeric', month: 'numeric', year: 'numeric',
+    weekday: 'long', day: 'numeric', month: 'long', year: 'numeric',
   };
   const timestamp = Date.parse(reviewDate);
   const timestampToDate = new Date(timestamp);
